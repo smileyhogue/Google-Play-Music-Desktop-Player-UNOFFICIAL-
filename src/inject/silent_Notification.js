@@ -13,8 +13,8 @@ class SilentNotification {
     this.tag = this._notification.tag;
     this.icon = this._notification.icon;
     this.data = this._notification.data;
-    this.requireInteraction = false;
-    this.silent = true;
+    this.requireInteraction = True;
+    this.silent = False;
 
     Object.defineProperty(this, 'onclick', {
       get: () => { return this._notification.onclick; },
