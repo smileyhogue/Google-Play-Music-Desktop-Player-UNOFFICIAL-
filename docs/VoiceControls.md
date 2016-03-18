@@ -2,7 +2,7 @@
 
 **NOTE:** By default these voice controls are disabled as they use an as yet unknown
 amount of internet.  You can turn them on in the "general" section of Settings.
-
+ 
 Google Play Music Desktop Player has implemented the `webkitSpeechRecognition`
 API to pick up what you say and uses a cool JS command parser that I wrote myself
 to translate that into a single action or a complex series of actions.
